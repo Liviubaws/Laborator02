@@ -20,17 +20,20 @@
 
     <EditText
         android:id="@+id/username_edit_text"
+        android:saveEnabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
         android:inputType="text"
         android:hint="@string/username">
+
         <requestFocus/>
     </EditText>
 
     <EditText
         android:id="@+id/password_edit_text"
+        android:saveEnabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -40,6 +43,7 @@
 
     <CheckBox
         android:id="@+id/remember_me_checkbox"
+        android:saveEnabled="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/remember_me_checkbox"/>
